@@ -22,8 +22,15 @@ To run this FastAPI application, follow these steps:
     source venv/bin/activate  # Activate the virtual environment
     pip3 install -r requirements.txt  # Install project dependencies
     ```
+3. **Set Up MongoDB:**
 
-3. **Run the application:**
+    This application uses MongoDB as the database to store film data. Here's how you can set up and connect to MongoDB:
+
+    - Install MongoDB: Follow the [official installation guide](https://docs.mongodb.com/manual/installation/) to install MongoDB on your system.
+
+    - Create a MongoDB Atlas account (optional): You can also use a cloud-hosted MongoDB service like MongoDB Atlas. Create an account and set up a cluster to get the connection URI.
+
+4. **Run the application:**
 
     ```bash
     python3 main.py
@@ -103,5 +110,3 @@ Feel free to contribute to this project by opening issues, suggesting enhancemen
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
