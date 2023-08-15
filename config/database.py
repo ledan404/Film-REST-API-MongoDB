@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 
 client = MongoClient(
-    "mongodb+srv://admin:test1234@film.ld35bwf.mongodb.net/?retryWrites=true&w=majority")
+    "") #put your MongoDB URI
 
 db = client.film_db
 
