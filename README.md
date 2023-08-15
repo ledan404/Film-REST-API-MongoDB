@@ -105,5 +105,3 @@ Feel free to contribute to this project by opening issues, suggesting enhancemen
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to customize the above README according to your preferences and project details. Good luck with your FastAPI Films API project!
