@@ -30,13 +30,21 @@ To run this FastAPI application, follow these steps:
 
     - Create a MongoDB Atlas account (optional): You can also use a cloud-hosted MongoDB service like MongoDB Atlas. Create an account and set up a cluster to get the connection URI.
 
-4. **Run the application:**
+4.1 **Run the application in the local machine:**
 
     ```bash
-    python3 main.py
+    uvicorn main:app --reload
     ```
 
     The FastAPI application will start, and you'll be able to access the API at `http://localhost:8000`.
+4.2 **Run the application using Docker:**
+
+    If you prefer using Docker to manage the application and its dependencies, you can build and run the application using the provided Dockerfile.
+
+    ```bash
+    docker build -t film-rest-api .
+    docker run -p 8000:8000 film-rest-api
+    ```
 
 ## Project Structure
 
