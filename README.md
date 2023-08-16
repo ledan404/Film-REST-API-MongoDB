@@ -9,7 +9,7 @@ To run this FastAPI application, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    https://github.com/ledan404/Film-REST-API-MongoDB
+    git clone https://github.com/ledan404/Film-REST-API-MongoDB
     cd Film-REST-API-MongoDB
     ```
 
